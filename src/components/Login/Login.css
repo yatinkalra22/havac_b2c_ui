@@ -1,0 +1,54 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.login-container img {
+  height: 133px;
+  width: 234px;
+}
+.login-container .login-box {
+  display: flex;
+  border: 1px solid var(--primaryBackgroundGrey);
+  width: 500px;
+  background-color: var(--primaryBackgroundGrey);
+  border-radius: 32px;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 0;
+}
+.login-container .login-box .input-fields {
+  width: 290px;
+  height: 53px;
+  border-radius: 8px;
+  border: 1px solid var(--primaryWhite);
+  background-color: var(--primaryWhite);
+  margin: 10px 0;
+  padding: 0 20px;
+}
+.login-container .login-box .login-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  height: 53px;
+  border-radius: 8px;
+  border: 1px solid var(--primaryGreen);
+  background-color: var(--primaryGreen);
+  color: #fff;
+  margin: 50px 0 20px 0;
+  padding: 0 20px;
+  font-weight: 600;
+  font-style: normal;
+  cursor: pointer;
+}
+.login-container .login-box .login-forget-password {
+  font-weight: 500;
+  font-style: normal;
+  color: var(--primaryBlack);
+  cursor: pointer;
+  opacity: 0.6;
+}

@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
 :root {
-  --primaryGrey: #E5E5E5;
+  --primaryGrey: #e5e5e5;
   --black: #333333;
+  --primaryBackgroundGrey: #f4f4f4;
+  --primaryWhite: #fcfcfc;
+  --primaryGreen: #7ac141;
+  --primaryBlack: #1d1d1d;
 }
 
 code {
