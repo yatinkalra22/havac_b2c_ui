@@ -16,10 +16,9 @@ export default class Login extends Component {
 
   render() {
     const { userId, password } = this.state;
-    console.log("aa", this.state);
     return (
       <div className="login-container">
-        <img alt="login" src={havacLogo} id="forgot-image" />
+        <img alt="logo" src={havacLogo} id="havac-logo" />
         <div className="login-box">
           <input
             className="input-fields"
